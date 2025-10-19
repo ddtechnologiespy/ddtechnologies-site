@@ -1,0 +1,18 @@
+
+/* Dark professional theme */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+:root{--bg:#071027;--card:#0b1630;--accent:#00B4D8;--muted:#9fb3c8;--white:#ffffff;}
+*{box-sizing:border-box;font-family:'Poppins',sans-serif;margin:0;padding:0;}
+body{background:linear-gradient(180deg,var(--bg),#041022);color:var(--white);}
+header{display:flex;align-items:center;justify-content:space-between;padding:18px 36px;}
+.brand img{height:56px;border-radius:8px;}
+nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-weight:600;}
+.hero{max-width:1100px;margin:36px auto;padding:40px;border-radius:12px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.02));display:flex;gap:30px;align-items:center;}
+.hero h2{font-size:34px;margin:0 0 12px;color:var(--white);}
+.btn{background:var(--accent);color:#012;padding:12px 20px;border-radius:10px;text-decoration:none;font-weight:700;}
+.panel{max-width:1100px;margin:24px auto;padding:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;}
+.card{background:var(--card);padding:18px;border-radius:10px;border:1px solid rgba(255,255,255,0.03);}
+footer{padding:24px 36px;text-align:center;color:var(--muted);margin-top:40px;border-top:1px solid rgba(255,255,255,0.03);}
+.contact-form{max-width:800px;margin:0 auto;padding:18px;background:var(--card);border-radius:10px;}
+.input,textarea{width:100%;padding:12px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--white);margin-bottom:10px;}
+@media(max-width:800px){.hero{flex-direction:column;text-align:center;padding:20px;}nav{display:none;}}
