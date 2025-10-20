@@ -17,4 +17,4 @@ Versión inicial del sitio web institucional, desarrollada en HTML, CSS y JavaSc
 **CEO & Fundador:** Daniel Dávalos Dávalos  
 📧 davalosdavalostech@gmail.com  
 📍 Ñemby, Paraguay  
-🌎 https://github.com/ddtechnologies-site
+🌎 https://ddtechnologiespy.github.io/ddtechnologies-site/
