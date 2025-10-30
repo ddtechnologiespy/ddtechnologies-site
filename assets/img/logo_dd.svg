@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#00b4ff"/><stop offset="1" stop-color="#5ce0ff"/></linearGradient></defs>
+<rect width="800" height="300" fill="#07080a"/>
+<g transform="translate(60,40)">
+  <path d="M40 130 L40 40 L90 40 C130 40 130 130 90 130 L40 130 Z" fill="url(#g)"/>
+  <path d="M140 130 L140 40 L190 40 C230 40 230 130 190 130 L140 130 Z" fill="url(#g)"/>
+  <path d="M110 80 L140 80" stroke="#8fe6ff" stroke-width="6" stroke-linecap="round"/>
+</g>
+<g transform="translate(340,170)"><text x="0" y="0" font-family="Poppins, sans-serif" font-weight="600" font-size="28" fill="#cfefff">DD Technologies S.R.L</text></g>
+</svg>
