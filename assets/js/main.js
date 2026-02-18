@@ -1,1 +1,0 @@
-document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('.fade-up').forEach(el=>{el.classList.add('show')});});
